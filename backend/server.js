@@ -29,6 +29,7 @@ async function loadNotes() {
   }
 }
 
+//waxaan ku daray comments
 // Utility: save notes array to file
 async function saveNotes(notes) {
   await fs.writeFile(NOTES_FILE, JSON.stringify(notes, null, 2), "utf8");
